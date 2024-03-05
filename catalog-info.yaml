@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-experiment
+  description: An example of a Backstage application.
+  annotations:
+    github.com/project-slug: v-gypsy/backstage-sample-repo-2
+spec:
+  type: website
+  owner: vamsi240022@gmail.com
+  lifecycle: experimental
